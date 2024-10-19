@@ -12,6 +12,7 @@ CREATE TABLE Cliente(
 	cartao_cliente VARCHAR(25)NOT NULL
 );
 
+
 CREATE TABLE EquipesDeManutencao(
 	id_equipesDeManutencao INT PRIMARY KEY IDENTITY (1,1)  NOT NULL,
 	regiaoEquipe VARCHAR (100) NOT NULL,
